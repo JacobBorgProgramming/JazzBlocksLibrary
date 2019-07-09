@@ -358,7 +358,43 @@ HTML example
 }
 /*end*/
 
-
+/*JazzBlock buttonY_blue*/
+.buttonY_blue{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #f0f0f0;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: blue;
+  border-width: 1mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonY_blue:hover{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #cecece;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #6666ff;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 5mm #6666ff;
+  cursor: pointer;
+}
+.buttonY_blue:active{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #cecece;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #000066;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 5mm #000066;
+}
+/*end*/
 
 
 

@@ -19,4 +19,21 @@ if (window.sidebar) {
   document.onmousedown = disableselect
   document.onclick = reEnable
 }
-//(end)
+//end
+
+//JazzBlock back
+function goBack(){
+  window.history.back();
+}
+//end
+//JazzBlock forward
+function goForward(){
+  window.history.forward();
+}
+//end
+//JazzBlock Origin
+function Origin(){
+  var x = location.origin;
+  alert(x);
+}
+//end
