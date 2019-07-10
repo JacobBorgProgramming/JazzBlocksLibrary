@@ -1,0 +1,25 @@
+Learn to use this library
+//
+There are six button classes, X, Y, Z, AA, BB, and CC.
+X, Y, and Z buttons can use "mods". Mods are separated with "_".
+Button mods are teal, blue, orange, and green. (buttonY cannot use orange for it is the default)
+
+There are currently three paragraph classes pc, pf, and pn.
+
+pc
+
+pf
+
+pn
+
+Paragraph size mods are s, m, and l.
+
+Paragraph style mods are u, o, and s. Underline=u, overline=o, and strike-through=s
+
+When using multiple mods the order goes class_size_style.
+
+install JazzBlocks into your website by adding the library files to its source code folder and adding
+ <link rel="stylesheet" href="./JazzBlocks/JazzBlocks.css">
+ <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
