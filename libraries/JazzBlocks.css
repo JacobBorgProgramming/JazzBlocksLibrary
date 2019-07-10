@@ -790,27 +790,30 @@ border-right: none;
   font-size: 8mm;
   text-decoration: overline;
 }
-.pc_s{
+.pc_st{
   font-family: 'Ubuntu', sans-serif;
   font-size: 4mm;
   text-decoration: line-through;
 
 }
-.pc_s_s{
+.pc_s_st{
   font-family: 'Ubuntu', sans-serif;
   font-size: 3mm;
   text-decoration: line-through;
 }
-.pc_m_s{
+.pc_m_st{
   font-family: 'Ubuntu', sans-serif;
   font-size: 5mm;
   text-decoration: line-through;
 }
-.pc_l_s{
+.pc_l_st{
   font-family: 'Ubuntu', sans-serif;
   font-size: 8mm;
   text-decoration: line-through;
 }
+
+
+
 /*end*/
 
 /*JazzBlock pf and all compatable mods*/
@@ -872,23 +875,23 @@ border-right: none;
   font-size: 8mm;
   text-decoration: overline;
 }
-.pf_s{
+.pf_st{
   font-family: 'La Belle Aurore', cursive;
   font-size: 4mm;
   text-decoration: line-through;
 
 }
-.pf_s_s{
+.pf_s_st{
   font-family: 'La Belle Aurore', cursive;
   font-size: 3mm;
   text-decoration: line-through;
 }
-.pf_m_s{
+.pf_m_st{
   font-family: 'La Belle Aurore', cursive;
   font-size: 5mm;
   text-decoration: line-through;
 }
-.pf_l_s{
+.pf_l_st{
   font-family: 'La Belle Aurore', cursive;
   font-size: 8mm;
   text-decoration: line-through;
@@ -954,25 +957,44 @@ border-right: none;
   font-size: 8mm;
   text-decoration: overline;
 }
-.pn_s{
+.pn_st{
   font-family: 'Literata', serif;
   font-size: 4mm;
   text-decoration: line-through;
 
 }
-.pn_s_s{
+.pn_s_st{
   font-family: 'Literata', serif;
   font-size: 3mm;
   text-decoration: line-through;
 }
-.pn_m_s{
+.pn_m_st{
   font-family: 'Literata', serif;
   font-size: 5mm;
   text-decoration: line-through;
 }
-.pn_l_s{
+.pn_l_st{
   font-family: 'Literata', serif;
   font-size: 8mm;
   text-decoration: line-through;
+}
+/*end*/
+
+/*JazzBlock overflows*/
+#ov_scroll{
+  overflow: scroll;
+  height: 15mm;
+
+}
+#ov_auto{
+  overflow: auto;
+  height: 15mm;
+}
+#ov_hidden{
+  overflow: hidden;
+  height: 15mm;
+}
+#ov_visible{
+  overflow: visible;
 }
 /*end*/
