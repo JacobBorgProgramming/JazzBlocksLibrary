@@ -452,6 +452,87 @@ HTML example
 }
 /*end*/
 
+/*JazzBlock buttonZ_orange*/
+.buttonZ_orange{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #cecece;
+  background-color: #20232a;
+  border-radius: 100mm;
+  border-style: groove;
+  border-color: #FB542B;
+  border-width: 1mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonZ_orange:hover{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #cecece;
+  background-color: #20232a;
+  border-radius: 100mm;
+  border-style: groove;
+  border-color: #FB542B;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 6mm #FB542B;
+  cursor: pointer;
+}
+/*end*/
+
+/*JazzBlock buttonZ_green*/
+.buttonZ_green{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #cecece;
+  background-color: #20232a;
+  border-radius: 100mm;
+  border-style: groove;
+  border-color: #33cc33;
+  border-width: 1mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonZ_green:hover{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #cecece;
+  background-color: #20232a;
+  border-radius: 100mm;
+  border-style: groove;
+  border-color: #00ff55;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 6mm #33cc33;
+  cursor: pointer;
+}
+/*end*/
+
+/*JazzBlock buttonZ_blue*/
+.buttonZ_blue{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #cecece;
+  background-color: #20232a;
+  border-radius: 100mm;
+  border-style: groove;
+  border-color: #0000ff;
+  border-width: 1mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonZ_blue:hover{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #cecece;
+  background-color: #20232a;
+  border-radius: 100mm;
+  border-style: groove;
+  border-color: #1a66ff;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 6mm #0000ff;
+  cursor: pointer;
+}
+/*end*/
+
 
 
 
