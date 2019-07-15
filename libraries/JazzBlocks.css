@@ -3,10 +3,17 @@
 /*https://jacobborgprogramming.github.io/index.html*/
 
 /*install JazzBlocks into your website by adding this file to its sourcecode folder and adding
- <link rel="stylesheet" href="./JazzBlocks/JazzBlocks.css">
- <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
- <link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap" rel="stylesheet">
- <link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
+<!--JazzBlocks required code-->
+<link rel="preload" href="./libraries/JazzBlocks.css" as="style">
+<link rel="stylesheet" href="./libraries/JazzBlocks.css">
+<link rel="preload" href="./libraries/JazzBlocksFunctions.js" as="script">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" as="style">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap" as="style">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Literata&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
+<!--end-->
  */
 
 
@@ -675,6 +682,43 @@ HTML example
   transition-duration: 0.3s;
 
 }
+
+/*JazzBlock img class*/
+.img_s{
+  border-style: solid;
+  border-width: 0.3mm;
+  border-color: black;
+}
+.img_s_r{
+  border-style: solid;
+  border-width: 0.3mm;
+  border-color: black;
+  border-radius: 5mm;
+}
+.img_m{
+  border-style: solid;
+  border-width: 0.7mm;
+  border-color: black;
+}
+.img_m_r{
+  border-style: solid;
+  border-width: 0.7mm;
+  border-color: black;
+  border-radius: 5mm;
+}
+.img_l{
+  border-style: solid;
+  border-width: 1mm;
+  border-color: black;
+}
+.img_l_r{
+  border-style: solid;
+  border-width: 1mm;
+  border-color: black;
+  border-radius: 5mm;
+}
+
+/*end*/
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
   from {background-color: #ff9933; text-shadow: 0 0 10px #0033cc;}
