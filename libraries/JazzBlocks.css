@@ -204,7 +204,45 @@ HTML example
   cursor: pointer;
 }
 /*end*/
-
+/*JazzBlock ButtonX_red*/
+.buttonX_red{
+  color: #cc0000;
+  border-style: solid;
+  border-color: #cc0000;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #cecece;
+  box-shadow: 0mm 0mm 2mm #cc0000;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonX_red:hover{
+  color: red;
+  border-style: solid;
+  border-color: red;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #cecece;
+  box-shadow: 0mm 0mm 4mm red;
+  cursor: pointer;
+}
+.buttonX_red:active{
+  color: black;
+  border-style: solid;
+  border-color: #ff3333;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #cecece;
+  box-shadow: 0mm 0mm 4mm #ff3333;
+  cursor: pointer;
+}
+/*end*/
 /*JazzBlock buttonX_blue*/
 .buttonX_blue{
   color: #003399;
