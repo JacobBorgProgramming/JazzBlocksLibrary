@@ -296,7 +296,7 @@ HTML example
   background-color: #343546;
   border-radius: 2mm;
   border-style: double;
-  border-color: #FB542B;
+  border-color: #cecece;
   border-width: 1mm;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.3s;
@@ -308,12 +308,86 @@ HTML example
   background-color: #343546;
   border-radius: 2mm;
   border-style: double;
+  border-color: #808080;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 5mm #cecece;
+  cursor: pointer;
+}
+.buttonY:active{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #b3b3b3;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #b3b3b3;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 5mm #b3b3b3;
+}
+/*end*/
+/*JazzBlock buttonY_red*/
+.buttonY_red{
+  font-size: 5mm;
+  font-family: monospace;
+  color: red;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #cc0000;
+  border-width: 1mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonY_red:hover{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #cc0000;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #cc0000;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 5mm #cc0000;
+  cursor: pointer;
+}
+.buttonY_red:active{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #cecece;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #b3b3b3;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 5mm #cc0000;
+}
+/*end*/
+/*JazzBlock buttonY_orange*/
+.buttonY_orange{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #f0f0f0;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #FB542B;
+  border-width: 1mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonY_orange:hover{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #cecece;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
   border-color: #FB542B;
   border-width: 1mm;
   box-shadow: 0mm 0mm 5mm #FB542B;
   cursor: pointer;
 }
-.buttonY:active{
+.buttonY_orange:active{
   font-size: 5mm;
   font-family: monospace;
   color: #cecece;
@@ -325,7 +399,6 @@ HTML example
   box-shadow: 0mm 0mm 5mm blue;
 }
 /*end*/
-
 /*JazzBlock ButtonY_teal*/
 .buttonY_teal{
   font-size: 5mm;
@@ -470,7 +543,32 @@ HTML example
   cursor: pointer;
 }
 /*end*/
-
+/*JazzBlock buttonZ_red*/
+.buttonZ_red{
+  font-size: 5mm;
+  font-family: monospace;
+  color: red;
+  background-color: #f0f0f0;
+  border-radius: 100mm;
+  border-style: groove;
+  border-color: #cc0000;
+  border-width: 1mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonZ_red:hover{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #cc0000;
+  background-color: #f0f0f0;
+  border-radius: 100mm;
+  border-style: groove;
+  border-color: #cc0000;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 6mm #cc0000;
+  cursor: pointer;
+}
+/*end*/
 /*JazzBlock buttonZ_teal*/
 .buttonZ_teal{
   font-size: 5mm;
