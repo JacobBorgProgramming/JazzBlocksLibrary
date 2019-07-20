@@ -163,7 +163,45 @@ HTML example
   cursor: pointer;
 }
 /*end*/
-
+/*JazzBlock buttonX_yellow*/
+.buttonX_yellow{
+  color: #e6e600;
+  border-style: solid;
+  border-color: #e6e600;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 0mm #e6e600;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonX_yellow:hover{
+  color: yellow;
+  border-style: solid;
+  border-color: yellow;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm yellow;
+  cursor: pointer;
+}
+.buttonX_yellow:active{
+  color: #e6e600;
+  border-style: solid;
+  border-color: #e6e600;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm #e6e600;
+  cursor: pointer;
+}
+/*end*/
 
 /*JazzBlock buttonX_orange*/
 .buttonX_orange{
@@ -282,7 +320,45 @@ HTML example
   cursor: pointer;
 }
 /*end*/
-
+/*JazzBlock buttonX_pink*/
+.buttonX_pink{
+  color: #cc00cc;
+  border-style: solid;
+  border-color: #cc00cc;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 0mm #cc00cc;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonX_pink:hover{
+  color: #ff00ff;
+  border-style: solid;
+  border-color: #ff00ff;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm #ff00ff;
+  cursor: pointer;
+}
+.buttonX_pink:active{
+  color: #b300b3;
+  border-style: solid;
+  border-color: #b300b3;
+  border-width: 0.5mm;
+  border-radius: 5mm;
+  font-family: monospace;
+  font-size: 5mm;
+  background-color: #343546;
+  box-shadow: 0mm 0mm 4mm #b300b3;
+  cursor: pointer;
+}
+/*end*/
 
 
 
@@ -323,6 +399,81 @@ HTML example
   border-color: #b3b3b3;
   border-width: 1mm;
   box-shadow: 0mm 0mm 5mm #b3b3b3;
+}
+/*end*/
+
+/*JazzBlock buttonY_yellow*/
+.buttonY_yellow{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #e6e600;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #e6e600;
+  border-width: 1mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonY_yellow:hover{
+  font-size: 5mm;
+  font-family: monospace;
+  color: yellow;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: yellow;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 4mm #e6e600;
+  cursor: pointer;
+}
+.buttonY_yellow:active{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #e6e600;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #e6e600;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 5mm yellow;
+}
+/*end*/
+/*JazzBlock buttonY_pink*/
+.buttonY_pink{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #cc00cc;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #cc00cc;
+  border-width: 1mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonY_pink:hover{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #b300b3;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #b300b3;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 5mm #b300b3;
+  cursor: pointer;
+}
+.buttonY_pink:active{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #ff00ff;
+  background-color: #343546;
+  border-radius: 2mm;
+  border-style: double;
+  border-color: #ff00ff;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 5mm #ff00ff;
 }
 /*end*/
 /*JazzBlock buttonY_red*/
@@ -540,6 +691,58 @@ HTML example
   border-color: #88c6be;
   border-width: 1mm;
   box-shadow: 0mm 0mm 6mm #88c6be;
+  cursor: pointer;
+}
+/*end*/
+/*JazzBlock buttonZ_yellow*/
+.buttonZ_yellow{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #e6e600;
+  background-color: #20232a;
+  border-radius: 100mm;
+  border-style: groove;
+  border-color: #e6e600;
+  border-width: 1mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonZ_yellow:hover{
+  font-size: 5mm;
+  font-family: monospace;
+  color: yellow;
+  background-color: #20232a;
+  border-radius: 100mm;
+  border-style: groove;
+  border-color: yellow;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 6mm #e6e600;
+  cursor: pointer;
+}
+/*end*/
+/*JazzBlock buttonZ_pink*/
+.buttonZ_pink{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #cc00cc;
+  background-color: #20232a;
+  border-radius: 100mm;
+  border-style: groove;
+  border-color: #cc00cc;
+  border-width: 1mm;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonZ_pink:hover{
+  font-size: 5mm;
+  font-family: monospace;
+  color: #ff00ff;
+  background-color: #20232a;
+  border-radius: 100mm;
+  border-style: groove;
+  border-color: #ff00ff;
+  border-width: 1mm;
+  box-shadow: 0mm 0mm 6mm #ff00ff;
   cursor: pointer;
 }
 /*end*/
