@@ -1381,3 +1381,212 @@ border-right: none;
   overflow: visible;
 }
 /*end*/
+
+/*JazzBlock badge_box*/
+.badge_box{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #bfbfbf;
+  color:#142739;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 0.5mm;
+}
+/*end*/
+/*JazzBlock badge_box_blue*/
+.badge_box_blue{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #d9e6f2;
+  color:#142739;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 0.5mm;
+}
+/*end*/
+/*JazzBlock badge_box_green*/
+.badge_box_green{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #66ff66;
+  color:#142739;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 0.5mm;
+}
+/*end*/
+
+/*JazzBlock badge_box_red*/
+.badge_box_red{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ff1a1a;
+  color:#cecece;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 0.5mm;
+}
+/*end*/
+/*JazzBlock badge_box_yellow*/
+.badge_box_yellow{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: yellow;
+  color:#142739;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 0.5mm;
+}
+/*end*/
+
+/*JazzBlock badge_box_orange*/
+.badge_box_orange{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: orange;
+  color:#142739;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 0.5mm;
+}
+/*end*/
+
+/*JazzBlock badge_box_teal*/
+.badge_box_teal{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #008080;
+  color:#cecece;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 0.5mm;
+}
+/*end*/
+/*JazzBlock badge_box_pink*/
+.badge_box_pink{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ff6680;
+  color:#cecece;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 0.5mm;
+}
+/*end*/
+/*JazzBlock badge_box_blue*/
+.badge_box_blue{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: blue;
+  color:#cecece;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 0.5mm;
+}
+/*end*/
+
+
+
+
+/*JazzBlock badge_round*/
+.badge_round{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #bfbfbf;
+  color:#142739;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 5mm;
+}
+/*end*/
+/*JazzBlock badge_round_blue*/
+.badge_round_blue{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #d9e6f2;
+  color:#142739;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 5mm;
+}
+/*end*/
+/*JazzBlock badge_round_green*/
+.badge_round_green{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #66ff66;
+  color:#142739;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 5mm;
+}
+/*end*/
+
+/*JazzBlock badge_round_red*/
+.badge_round_red{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ff1a1a;
+  color:#cecece;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 5mm;
+}
+/*end*/
+/*JazzBlock badge_round_yellow*/
+.badge_round_yellow{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: yellow;
+  color:#142739;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 5mm;
+}
+/*end*/
+
+/*JazzBlock badge_round_orange*/
+.badge_round_orange{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: orange;
+  color:#142739;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 5mm;
+}
+/*end*/
+
+/*JazzBlock badge_round_teal*/
+.badge_round_teal{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #008080;
+  color:#cecece;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 5mm;
+}
+/*end*/
+/*JazzBlock badge_round_pink*/
+.badge_round_pink{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ff6680;
+  color:#cecece;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 5mm;
+}
+/*end*/
+/*JazzBlock badge_round_blue*/
+.badge_round_blue{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: blue;
+  color:#cecece;
+  padding: 0.3mm;
+  padding-left: 1mm;
+  padding-right: 1mm;
+  border-radius: 5mm;
+}
+/*end*/

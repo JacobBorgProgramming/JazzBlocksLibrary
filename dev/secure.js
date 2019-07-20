@@ -1,3 +1,6 @@
+var d = new Date();
+var n = d.getDate();
+
 function passWord() {
 var testV = 1;
 var pass1 = prompt('Please Enter Your JBP Pin',' ');
@@ -6,7 +9,7 @@ if (!pass1)
 history.go(-1);
 if (pass1.toLowerCase() == "0000") {
 alert('You Got it Right!');
-window.open('www.wikihow.com');
+window.open('./devcenter.html');
 break;
 }
 if (pass1.toLowerCase() == "1111") {
