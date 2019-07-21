@@ -1590,3 +1590,12 @@ border-right: none;
   border-radius: 5mm;
 }
 /*end*/
+/*JazzBlock con1*/
+.con1{
+  background-image: url(./img/teamtech.jpg);
+  border-style: none;
+  border-radius: 1mm;
+  background-position: center;
+  width: 100%
+}
+/**/
