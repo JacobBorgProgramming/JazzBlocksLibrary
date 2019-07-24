@@ -1,7 +1,7 @@
 /*JazzBlocks.css Library*/
 /*JacobBorgProgramming*/
 /*https://jacobborgprogramming.github.io/index.html*/
-
+/*https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css*/
 /*install JazzBlocks into your website by adding this file to its sourcecode folder and adding
 <!--JazzBlocks required code-->
 <link rel="preload" href="./libraries/JazzBlocks.css" as="style">
@@ -15,7 +15,6 @@
 <link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
 <!--end-->
  */
-
 
 /*JazzBlock bubbleAlertNews*/
 /*Numeric bubble for alerts (Great for alerting the user of new blog posts)*/
