@@ -129,15 +129,15 @@ HTML example
 
 /*JazzBlock buttonX_green*/
 .buttonX_green{
-  color: #33cc33;
+  color: #17bf63;
   border-style: solid;
-  border-color: #33cc33;
+  border-color: #17bf63;
   border-width: 0.5mm;
   border-radius: 5mm;
   font-family: monospace;
   font-size: 5mm;
   background-color: #343546;
-  box-shadow: 0mm 0mm 0mm #33cc33;
+  box-shadow: 0mm 0mm 0mm #17bf63;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.3s;
 }
@@ -601,7 +601,7 @@ HTML example
   background-color: #343546;
   border-radius: 2mm;
   border-style: double;
-  border-color: #33cc33;
+  border-color: #17bf63;
   border-width: 1mm;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.3s;
