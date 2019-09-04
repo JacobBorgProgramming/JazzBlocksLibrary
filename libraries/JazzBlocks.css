@@ -6,20 +6,20 @@
 /*<link rel="preload" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css" as="style">*/
 /*<link rel="stylesheet" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css">*/
 
-/*install JazzBlocks into your website by adding this file to its sourcecode folder and adding
+/*install JazzBlocks into your website by adding
 <!--JazzBlocks required code-->
-<link rel="preload" href="./libraries/JazzBlocks.css" as="style">
-<link rel="stylesheet" href="./libraries/JazzBlocks.css">
-<link rel="preload" href="./libraries/JazzBlocksFunctions.js" as="script">
-<link rel="preload" href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" as="style">
-<link rel="preload" href="https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap" as="style">
-<link rel="preload" href="https://fonts.googleapis.com/css?family=Literata&display=swap" as="style">
-<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
+<link rel="preload" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css" as="style">
+<link rel="stylesheet" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css">
+<link rel="preload" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocksFunctions.js" as="script">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" rel="stylesheet">
 <!--end-->
+to your source
  */
 
+
+
+@import url('https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap');
 /*JazzBlock bubbleAlertNews*/
 /*Numeric bubble for alerts (Great for alerting the user of new blog posts)*/
 /*
@@ -1116,7 +1116,183 @@ border-right: none;
 }
 
 /*end*/
+/*
 
+
+    font-family: 'Chilanka', cursive;
+
+    font-family: 'Ubuntu', sans-serif;
+
+    font-family: 'La Belle Aurore', cursive;
+
+    font-family: 'Literata', serif;
+
+    font-family: 'Oswald', sans-serif;
+
+
+*/
+/*JazzBlock po and all compatable mods*/
+.ph{
+  font-family: 'Chilanka', cursive;
+  font-size: 4mm;
+}
+.ph_s{
+  font-family: 'Chilanka', cursive;
+  font-size: 3mm;
+}
+.ph_m{
+  font-family: 'Chilanka', cursive;
+  font-size: 5mm;
+}
+.ph_l{
+  font-family: 'Chilanka', cursive;
+  font-size: 8mm;
+}
+.ph_u{
+  font-family: 'Chilanka', cursive;
+  font-size: 4mm;
+  text-decoration: underline;
+
+}
+.ph_s_u{
+  font-family: 'Chilanka', cursive;
+  font-size: 3mm;
+  text-decoration: underline;
+}
+.ph_m_u{
+  font-family: 'Chilanka', cursive;
+  font-size: 5mm;
+  text-decoration: underline;
+}
+.ph_l_u{
+  font-family: 'Chilanka', cursive;
+  font-size: 8mm;
+  text-decoration: underline;
+}
+.ph_o{
+  font-family: 'Chilanka', cursive;
+  font-size: 4mm;
+  text-decoration: overline;
+
+}
+.ph_s_o{
+  font-family: 'Chilanka', cursive;
+  font-size: 3mm;
+  text-decoration: overline;
+}
+.ph_m_o{
+  font-family: 'Chilanka', cursive;
+  font-size: 5mm;
+  text-decoration: overline;
+}
+.ph_l_o{
+  font-family: 'Chilanka', cursive;
+  font-size: 8mm;
+  text-decoration: overline;
+}
+.ph_st{
+  font-family: 'Chilanka', cursive;
+  font-size: 4mm;
+  text-decoration: line-through;
+
+}
+.ph_s_st{
+  font-family: 'Chilanka', cursive;
+  font-size: 3mm;
+  text-decoration: line-through;
+}
+.ph_m_st{
+  font-family: 'Chilanka', cursive;
+  font-size: 5mm;
+  text-decoration: line-through;
+}
+.ph_l_st{
+  font-family: 'Chilanka', cursive;
+  font-size: 8mm;
+  text-decoration: line-through;
+}
+/*end*/
+/*JazzBlock po and all compatable mods*/
+.po{
+  font-family: 'Oswald', sans-serif;
+  font-size: 4mm;
+}
+.po_s{
+  font-family: 'Oswald', sans-serif;
+  font-size: 3mm;
+}
+.po_m{
+  font-family: 'Oswald', sans-serif;
+  font-size: 5mm;
+}
+.po_l{
+  font-family: 'Oswald', sans-serif;
+  font-size: 8mm;
+}
+.po_u{
+  font-family: 'Oswald', sans-serif;
+  font-size: 4mm;
+  text-decoration: underline;
+
+}
+.po_s_u{
+  font-family: 'Oswald', sans-serif;
+  font-size: 3mm;
+  text-decoration: underline;
+}
+.po_m_u{
+  font-family: 'Oswald', sans-serif;
+  font-size: 5mm;
+  text-decoration: underline;
+}
+.po_l_u{
+  font-family: 'Oswald', sans-serif;
+  font-size: 8mm;
+  text-decoration: underline;
+}
+.po_o{
+  font-family: 'Oswald', sans-serif;
+  font-size: 4mm;
+  text-decoration: overline;
+
+}
+.po_s_o{
+  font-family: 'Oswald', sans-serif;
+  font-size: 3mm;
+  text-decoration: overline;
+}
+.po_m_o{
+  font-family: 'Oswald', sans-serif;
+  font-size: 5mm;
+  text-decoration: overline;
+}
+.po_l_o{
+  font-family: 'Oswald', sans-serif;
+  font-size: 8mm;
+  text-decoration: overline;
+}
+.po_st{
+  font-family: 'Oswald', sans-serif;
+  font-size: 4mm;
+  text-decoration: line-through;
+
+}
+.po_s_st{
+  font-family: 'Oswald', sans-serif;
+  font-size: 3mm;
+  text-decoration: line-through;
+}
+.po_m_st{
+  font-family: 'Oswald', sans-serif;
+  font-size: 5mm;
+  text-decoration: line-through;
+}
+.po_l_st{
+  font-family: 'Oswald', sans-serif;
+  font-size: 8mm;
+  text-decoration: line-through;
+}
+/*end*/
 /*JazzBlock pc and all compatable mods*/
 .pc{
   font-family: 'Ubuntu', sans-serif;
