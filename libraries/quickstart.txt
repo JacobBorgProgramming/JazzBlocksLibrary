@@ -10,6 +10,10 @@ pc
 
 pf
 
+ph
+
+po
+
 pn
 
 Paragraph size mods are s, m, and l.

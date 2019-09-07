@@ -1784,3 +1784,41 @@ border-right: none;
   transition-duration: 0.3s;
 }
 /*end*/
+.buttonM1_blue{
+  color: #cecece;
+  border-style: solid;
+  border-color: #A0A1B2;
+  border-width: 0.5mm;
+  border-radius: 0mm;
+  font-family: monospace;
+  font-size: 4mm;
+  background-color: #A0A1B2;
+  box-shadow: 0mm 0mm 0mm #FB542B;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  width: 25%;
+  transform: rotate(0deg);
+}
+.buttonM1_blue:hover{
+  color: #cecece;
+  border-style: solid;
+  border-color: #0073e6;
+  border-width: 0.5mm;
+  border-radius: 0mm;
+  font-family: monospace;
+  font-size: 4mm;
+  background-color: #0073e6;
+  box-shadow: 0mm 0mm 5mm #3399ff;
+  cursor: pointer;
+}
+.buttonM1_blue:active{
+  color: #343546;
+  border-style: solid;
+  border-color: #3399ff;
+  border-width: 0.5mm;
+  border-radius: 0mm;
+  font-family: monospace;
+  font-size: 4mm;
+  background-color: #3399ff;
+  box-shadow: 0mm 0mm 5mm #0073e6;
+}
