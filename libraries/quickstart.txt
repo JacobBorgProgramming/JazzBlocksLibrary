@@ -4,7 +4,7 @@ There are six button classes, X, Y, Z, AA, BB, and CC.
 X, Y, and Z buttons can use "mods". Mods are separated with "_".
 Button mods are teal, blue, orange, and green. (buttonY cannot use orange for it is the default)
 
-There are currently three paragraph classes pc, pf, and pn.
+There are currently five paragraph classes pc, pf, and pn.
 
 pc
 
