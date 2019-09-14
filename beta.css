@@ -1,0 +1,195 @@
+html {
+max-width: 100%;
+max-width:100%;
+background-image: url(https://dev.jacobborgprogramming.net/media/background.jpg);
+margin-right: 0px;
+margin-left: 0px;
+margin-top: 0px;
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+    width: 0px;
+}
+@import url('https://fonts.googleapis.com/css?family=Monoton|PT+Sans+Narrow|Share+Tech+Mono&display=swap');
+/*font-family: 'Share Tech Mono', monospace;
+font-family: 'Monoton', cursive;
+font-family: 'PT Sans Narrow', sans-serif;*/
+body{
+  color: #cecece;
+
+}
+footer{
+  padding: 1mm;
+bottom: 0mm;
+margin-bottom: 0mm;
+}
+
+#menu{
+  height: 55mm;
+
+}
+a{
+  color: #17bf63;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+.buttonMenu{
+  font-family: 'Ubuntu', sans-serif;
+  padding-top:1mm;
+  padding-bottom:1mm;
+  padding-left: 3mm;
+  padding-right: 3mm;
+  margin-right: 0mm;
+  margin-left: 0mm;
+  border-left: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-right: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-bottom: 0.5mm solid #17bf63;
+  border-top: 0.5mm solid #17bf63;
+  border-radius: 5mm;
+  color: #17bf63;
+  background: rgba(0, 0, 0, 0.0);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  font-size: 10mm;
+  margin: 4mm;
+}
+.buttonMenu:hover{
+
+  font-family: 'Ubuntu', sans-serif;
+  padding-top:5mm;
+  padding-bottom:5mm;
+  border-radius: 5mm;
+  padding-left: 3mm;
+  padding-right: 3mm;
+  margin-right: 0mm;
+  margin-left: 0mm;
+  margin-right: 0mm;
+  border-left: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-right: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-bottom: 0.5mm solid #99ff99;
+  border-top: 0.5mm solid #99ff99;
+  color: #99ff99;
+  background: rgba(0, 0, 0, 0.0);
+  margin-bottom: 0mm;
+  margin-top: 0mm;
+  cursor: pointer;
+}
+.buttonMenu2{
+  font-family: 'Ubuntu', sans-serif;
+  padding-top:1mm;
+  padding-bottom:1mm;
+  padding-left: 3mm;
+  padding-right: 3mm;
+  margin-right: 0mm;
+  margin-left: 0mm;
+  border-left: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-right: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-bottom: 0.5mm solid #17bf63;
+  border-top: 0.5mm solid #17bf63;
+  border-radius: 5mm;
+  color: #17bf63;
+  background: rgba(0, 0, 0, 0.0);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  font-size: 10mm;
+  margin: 4mm;
+}
+.buttonMenu2:hover{
+  font-family: 'Ubuntu', sans-serif;
+  padding-top:1mm;
+  padding-bottom:1mm;
+  padding-left: 3mm;
+  padding-right: 3mm;
+  margin-right: 0mm;
+  margin-left: 0mm;
+  border-left: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-right: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-bottom: 0.5mm solid #99ff99;
+  border-top: 0.5mm solid #99ff99;
+  border-radius: 5mm;
+  color: #99ff99;
+  background: rgba(0, 0, 0, 0.0);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  font-size: 10mm;
+  margin: 4mm;
+  cursor: pointer;
+}
+.buttonMenuAct{
+  font-family: 'Ubuntu', sans-serif;
+  padding-top:1mm;
+  padding-bottom:1mm;
+  padding-left: 3mm;
+  padding-right: 3mm;
+  margin-right: 0mm;
+  margin-left: 0mm;
+  border-left: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-right: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-bottom: 0.5mm solid #cecece;
+  border-top: 0.5mm solid #cecece;
+  border-radius: 5mm;
+  color: #cecece;
+  background: rgba(0, 0, 0, 0.0);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  font-size: 10mm;
+  margin: 4mm;
+  cursor:not-allowed;
+}
+
+.hline{
+  border-bottom: 0.5mm solid #17bf63;
+  width: 80%;
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.0);
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+
+}
+header{
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.con1{
+  margin-top:70mm;
+  width: 70%;
+  border-radius: 1mm;
+  margin-bottom: 13mm;
+}
