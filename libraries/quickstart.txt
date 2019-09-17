@@ -24,10 +24,21 @@ When using multiple mods the order goes class_size_style.
 
 install JazzBlocks into your website by adding the library files to its source code folder and adding
 
-	<!--JazzBlocks required code-->
+<!--JazzBlocks required code-->
 <link rel="preload" href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/JazzBlocks.css" as="style">
 <link rel="stylesheet" href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/JazzBlocks.css">
 <link rel="preload" href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/JazzBlocksFunctions.js" as="script">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" rel="stylesheet">
+<!--end-->
+
+
+
+<!--JazzBlocks Divided required code-->
+<link rel="stylesheet" href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/textStyles.css">
+<link rel="stylesheet" href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/buttons.css">
+<link rel="stylesheet" href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/everythingelse.css">
+<link rel="preload" href="https://dev.jacobborgprogramming.net/libraries/JazzBlocksFunctions.js" as="script">
 <link rel="preload" href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" as="style">
 <link href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" rel="stylesheet">
 <!--end-->
