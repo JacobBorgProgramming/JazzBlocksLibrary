@@ -24,10 +24,10 @@ When using multiple mods the order goes class_size_style.
 
 install JazzBlocks into your website by adding the library files to its source code folder and adding
 
-<!--JazzBlocks required code-->
-<link rel="preload" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css" as="style">
-<link rel="stylesheet" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocks.css">
-<link rel="preload" href="https://jacobborgprogramming.github.io/JazzBlocksLibrary/libraries/JazzBlocksFunctions.js" as="script">
+	<!--JazzBlocks required code-->
+<link rel="preload" href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/JazzBlocks.css" as="style">
+<link rel="stylesheet" href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/JazzBlocks.css">
+<link rel="preload" href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/JazzBlocksFunctions.js" as="script">
 <link rel="preload" href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" as="style">
 <link href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" rel="stylesheet">
 <!--end-->
