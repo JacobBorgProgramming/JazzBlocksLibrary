@@ -13,16 +13,13 @@ gtag('js', new Date());
 gtag('config', 'UA-140492711-1');
 </script>
 <!--JazzBlocks required code-->
-<link rel="preload" href="./libraries/JazzBlocks.css" as="style">
-<link rel="stylesheet" href="./libraries/JazzBlocks.css">
-<link rel="preload" href="./libraries/JazzBlocksFunctions.js" as="script">
-<link rel="preload" href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" as="style">
-<link rel="preload" href="https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap" as="style">
-<link rel="preload" href="https://fonts.googleapis.com/css?family=Literata&display=swap" as="style">
-<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Literata&display=swap" rel="stylesheet">
+<link rel="preload" href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/JazzBlocks.css" as="style">
+<link rel="stylesheet" href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/JazzBlocks.css">
+<link rel="preload" href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/JazzBlocksFunctions.js" as="script">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" rel="stylesheet">
 <!--end-->
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <a id="top"></a>
 <head>
@@ -31,13 +28,20 @@ gtag('config', 'UA-140492711-1');
 <p style="text-align: center;color: #cecece;"><a href="./source.html"><button class="buttonY_teal" style="margin: 2mm;">Source</button></a><a href="./social.html"><button class="buttonY_teal" style="margin: 2mm;">Social</button></a></p>
 </head>
 <div style="padding:5mm;"></div>
-<h2 style="text-align: center; color: #cecece;" class="pc_l_u">Enter your JBP pin and acces the Dev center</h2>
+<h2 style="text-align: center; color: #cecece;" class="pc_l_u">Please complete the following verification.</h2>
 <body>
   <script type="text/javascript" src="./dev/secure.js">
   passWord();
   </script>
   <center>
+    <h3 style="text-align: center; color: #cecece;" class="pc_m">Click "Get Pin" to start verification.</h3>
+    <h4 style="text-align: center; color: #cecece;" class="pc_m">Then you will press "Enter Pin".</h4>
+    <p></p>
+     <button onclick="pinShow()" class="buttonY_teal">Get Pin</button>
   <form>
+  <p></p>
+  <img id="iframe" src="./dev/lock.jpg" width="auto" height="170mm"></img>
+  <p></p>
   <button class="buttonY_teal" onClick="passWord()">Enter Pin</button>
   </form>
   </center>

@@ -1,18 +1,51 @@
 var d = new Date();
 var n = d.getDate();
 
+var pinGen = Math.floor(Math.random() * 6);
+var p1 = Math.floor(Math.random() * 9);
+var p2 = Math.floor(Math.random() * 9);
+var p3 = Math.floor(Math.random() * 9);
+var p4 = Math.floor(Math.random() * 9);
+var pin = p1+p2+p3+p4;
+document.getElementById("pin").innerHTML = pin;
+function pinShow(){
+   document.getElementById("iframe").src = "./dev/pin"+pinGen+".png";
+}
+
+
 function passWord() {
+
 var testV = 1;
-var pass1 = prompt('Please Enter Your JBP Pin',' ');
+var pass1 = prompt('Please Enter the pin that is on the new tab',' ');
 while (testV < 3) {
 if (!pass1)
 history.go(-1);
-if (pass1.toLowerCase() == "0000") {
+if (pass1.toLowerCase() == '0074') {
 alert('You Got it Right!');
 window.open('./devcenter.html');
 break;
 }
-if (pass1.toLowerCase() == "1111") {
+if (pass1.toLowerCase() == "1969") {
+alert('You Got it Right!');
+window.open('./devcenter.html');
+break;
+}
+if (pass1.toLowerCase() == "0924") {
+alert('You Got it Right!');
+window.open('./devcenter.html');
+break;
+}
+if (pass1.toLowerCase() == "9112") {
+alert('You Got it Right!');
+window.open('./devcenter.html');
+break;
+}
+if (pass1.toLowerCase() == "0537") {
+alert('You Got it Right!');
+window.open('./devcenter.html');
+break;
+}
+if (pass1.toLowerCase() == "4520") {
 alert('You Got it Right!');
 window.open('./devcenter.html');
 break;
