@@ -21,38 +21,40 @@ while (testV < 3) {
 if (!pass1)
 history.go(-1);
 if (pass1.toLowerCase() == '0074') {
-alert('You Got it Right!');
+alert('Verified:{0074}');
 window.open('./devcenter.html');
 break;
 }
 if (pass1.toLowerCase() == "1969") {
-alert('You Got it Right!');
+alert('Verified:{1969}');
 window.open('./devcenter.html');
 break;
 }
 if (pass1.toLowerCase() == "0924") {
-alert('You Got it Right!');
+alert('Verified:{0924}');
 window.open('./devcenter.html');
 break;
 }
 if (pass1.toLowerCase() == "9112") {
-alert('You Got it Right!');
+alert('Verified:{9112}');
 window.open('./devcenter.html');
 break;
 }
 if (pass1.toLowerCase() == "0537") {
-alert('You Got it Right!');
+alert('Verified:{0537}');
 window.open('./devcenter.html');
 break;
 }
 if (pass1.toLowerCase() == "4520") {
-alert('You Got it Right!');
+alert('Verified:{4520}');
 window.open('./devcenter.html');
 break;
 }
 testV+=1;
 var pass1 =
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+prompt('Verification Failed -','Password');
+
+window.open('./index.html');
 }
 if (pass1.toLowerCase()!="password" & testV ==3)
 history.go(-1);
