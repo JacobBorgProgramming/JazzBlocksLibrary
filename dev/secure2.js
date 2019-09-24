@@ -7,7 +7,6 @@ var p2 = Math.floor(Math.random() * 9);
 var p3 = Math.floor(Math.random() * 9);
 var p4 = Math.floor(Math.random() * 9);
 var pin = p1+p2+p3+p4;
-document.getElementById("pin").innerHTML = pin;
 function patternShow(){
    document.getElementById("iframe").src = "./dev/pattern"+pinGen+".jpg";
 }
