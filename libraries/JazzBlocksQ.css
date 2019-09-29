@@ -2,6 +2,18 @@
 html{
   text-rendering: optimizeSpeed;
 }
+#skewY_20{
+  transform: skewY(20deg);
+}
+#skewY_neg20{
+  transform: skewY(-20deg);
+}
+#rotate_20{
+  transform: rotate(20deg);
+}
+#rotate_neg20{
+  transform: rotate(-20deg);
+}
 .buttonQ1{
   margin-left:15mm;
   margin-right:15mm;
@@ -341,4 +353,8 @@ html{
   cursor: pointer;
   width: 60%;
   height: 30mm;
+}
+.Qcon{
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
 }
