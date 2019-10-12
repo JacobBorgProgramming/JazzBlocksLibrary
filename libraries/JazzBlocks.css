@@ -1003,7 +1003,109 @@ HTML example
   box-shadow: 0mm 0mm 5mm #FB542B;
 }
 /*end*/
+.buttonNeon{
+  font-family: 'Ubuntu', sans-serif;
+  padding-top:1mm;
+  padding-bottom:1mm;
+  padding-left: 3mm;
+  padding-right: 3mm;
+  margin-right: 0mm;
+  margin-left: 0mm;
+  border-left: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-right: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-bottom: 0.5mm solid #17bf63;
+  border-top: 0.5mm solid #17bf63;
+  border-radius: 5mm;
+  color: #17bf63;
+  background: rgba(0, 0, 0, 0.0);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  font-size: 10mm;
+  margin: 4mm;
+}
+.buttonNeon:hover{
 
+  font-family: 'Ubuntu', sans-serif;
+  padding-top:5mm;
+  padding-bottom:5mm;
+  border-radius: 5mm;
+  padding-left: 3mm;
+  padding-right: 3mm;
+  margin-right: 0mm;
+  margin-left: 0mm;
+  margin-right: 0mm;
+  border-left: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-right: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-bottom: 0.5mm solid #99ff99;
+  border-top: 0.5mm solid #99ff99;
+  color: #99ff99;
+  background: rgba(0, 0, 0, 0.0);
+  margin-bottom: 0mm;
+  margin-top: 0mm;
+  cursor: pointer;
+}
+.buttonNeon2{
+  font-family: 'Ubuntu', sans-serif;
+  padding-top:1mm;
+  padding-bottom:1mm;
+  padding-left: 3mm;
+  padding-right: 3mm;
+  margin-right: 0mm;
+  margin-left: 0mm;
+  border-left: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-right: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-bottom: 0.5mm solid #17bf63;
+  border-top: 0.5mm solid #17bf63;
+  border-radius: 5mm;
+  color: #17bf63;
+  background: rgba(0, 0, 0, 0.0);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  font-size: 10mm;
+  margin: 4mm;
+}
+.buttonNeon2:hover{
+  font-family: 'Ubuntu', sans-serif;
+  padding-top:1mm;
+  padding-bottom:1mm;
+  padding-left: 3mm;
+  padding-right: 3mm;
+  margin-right: 0mm;
+  margin-left: 0mm;
+  border-left: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-right: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-bottom: 0.5mm solid #99ff99;
+  border-top: 0.5mm solid #99ff99;
+  border-radius: 5mm;
+  color: #99ff99;
+  background: rgba(0, 0, 0, 0.0);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  font-size: 10mm;
+  margin: 4mm;
+  cursor: pointer;
+}
+.buttonNeonAct{
+  font-family: 'Ubuntu', sans-serif;
+  padding-top:1mm;
+  padding-bottom:1mm;
+  padding-left: 3mm;
+  padding-right: 3mm;
+  margin-right: 0mm;
+  margin-left: 0mm;
+  border-left: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-right: 0.5mm solid rgba(0, 0, 0, 0.0);
+  border-bottom: 0.5mm solid #cecece;
+  border-top: 0.5mm solid #cecece;
+  border-radius: 5mm;
+  color: #cecece;
+  background: rgba(0, 0, 0, 0.0);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+  font-size: 10mm;
+  margin: 4mm;
+  cursor:not-allowed;
+}
 
 
 /*JazzBlock jumb0tr0n*/
