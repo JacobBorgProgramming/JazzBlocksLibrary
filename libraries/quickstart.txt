@@ -1,10 +1,44 @@
 Learn to use this library
 //
-There are six button classes, X, Y, Z, AA, BB, and CC.
+There are six primary button classes, X, Y, Z, AA, BB, and CC.
 X, Y, and Z buttons can use "mods". Mods are separated with "_".
-Button mods are teal, blue, orange, and green. (buttonY cannot use orange for it is the default)
+Button mods are red, pink, teal, blue, orange, and green. (buttonY cannot use orange for it is the default)
 
-There are currently five paragraph classes pc, pf, and pn.
+- - -
+There are currently two specialty button classes: Q1 & Q2
+Q1 compatible mods are:
+- - -
+noir
+
+red
+
+pink
+
+teal
+
+blue
+
+orange
+
+green
+
+- - -
+Q2 compatible mods are:
+- - -
+
+bluepaint
+
+blacksands
+
+streams
+
+city
+
+code
+
+- - -
+There are currently five paragraph classes:
+- - -
 
 pc
 
