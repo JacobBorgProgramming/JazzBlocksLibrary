@@ -1,42 +1,60 @@
 <!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Docs</title>
-<html style="background-color: #343546;">
+<title>JazzBlocks</title>
+<html style="background-color: #343546;  background-image: url(./libraries/img/streams.jpg); background-attachment: fixed; background-repeat: no-repeat; background-size: 100%">
 <link rel="shortcut icon" href="./libraries/JazzBlocks.png">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140492711-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
 
-gtag('config', 'UA-140492711-1');
-</script>
-<!--JazzBlocks required code-->
-<link rel="preload" href="./libraries/JazzBlocks.css" as="style">
-<link rel="stylesheet" href="./libraries/JazzBlocks.css">
-<link rel="preload" href="./JazzBlocksFunctions.js" as="script">
+<!--JazzBlocksQ Beta Resources-->
+<link href="./libraries/JazzBlocksQ.css" rel="stylesheet">
+<link href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/JazzBlocksQ.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" rel="stylesheet">
+<!--end-->
+
+<!--JazzBlocks Divided required code-->
+<link rel="stylesheet" href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/textStyles.css">
+<link rel="stylesheet" href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/buttons.css">
+<link rel="stylesheet" href="https://dev.jacobborgprogramming.net/JazzBlocksLibrary/libraries/everythingelse.css">
+<link rel="preload" href="https://dev.jacobborgprogramming.net/libraries/JazzBlocksFunctions.js" as="script">
 <link rel="preload" href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" as="style">
 <link href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" rel="stylesheet">
 <!--end-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<a id="top"></a>
-<head>
+<p style="padding: 0mm;"></p>
+<header width="100%" style = "color: #cecece; background-color: rgb(0, 0, 0, 0.9); border-color: rgb(0, 0, 0, 0.9); border-style: solid; border-radius: 5px; position: -webkit-sticky; /* Safari */ position: sticky; top: -140px;">
 
-<p style="text-align: center; color: #cecece;"><a href="./index.html"><img src="./libraries/JazzBlocks.png" alt="JazzBlocks Image" width="250mm" height="250mm"></a></p>
-<p style="text-align: center;color: #cecece;"><a href="./source.html"><button class="buttonY_teal" style="margin: 2mm;">Source</button></a><a href="./social.html"><button class="buttonY_teal" style="margin: 2mm;">Social</button></a></p>
-</head>
-<div style="padding:5mm;"></div>
-<h2 style="text-align: center; color: #cecece;" class="pc_l_u">Learn to use this library</h2>
+<center> <img src="./libraries/JazzBlocks.png" alt="JazzBlocks Logo" width="120mm;" height="120mm"> </center>
+<center style="position: -webkit-sticky; /* Safari */ position: sticky; top: 0;"><h1 class="pn_l">JazzBlocks</h1>
+<p class="pn_m"><a href="./source.html"><button class="buttonQ1_yellow">Source</button></a><a href="./docs.html"><button class="buttonQ1_green">Docs</button></a><a href="./social.html"><button class="buttonQ1_pink">Social</button></a></p>
+</center>
+</header>
+<p style="padding: 10mm;"></p>
 <body>
-  <p style="text-align: center; color: #cecece;" class="pc_m_u">There are six primary button classes, X, Y, Z, AA, BB, and CC.</p>
-  <p style="text-align: center;"><button class="buttonX">buttonX</button><button class="buttonY">buttonY</button><button class="buttonZ">buttonZ</button></p>
+<p style="padding: 5mm;"></p>
+<center><div style = "width: 70%; padding: 3mm; color: #cecece; background-color: rgb(15, 15, 15, 0.7);  border-style: none; border-radius: 5px;">
+  <p class="pn_l" style="text-align: center; color: #cecece;">JazzBlocks Library 2.2 Docs (Complete)</p>
+</div></center>
+<p style="padding: 5mm;"></p>
+<center><div style = "width: 70%; padding: 3mm; color: #cecece; background-color: rgb(15, 15, 15, 0.7);  border-style: none; border-radius: 5px;">
+  <p class="pn_l" style="text-align: center; color: #cecece;">Text Styling</p>
+    <p class="pn_m" style="text-align: center; color: #cecece;">There are currently five paragraph classes pc, pf, po, ph, and pn.</p>
+<p style="text-align: center; color: #cecece;" class="pc_m">pc</p><p style="text-align: center; color: #cecece;" class="pf_m">pf</p><p style="text-align: center; color: #cecece;" class="po_m">po</p><p style="text-align: center; color: #cecece;" class="ph_m">ph</p><p style="text-align: center; color: #cecece;" class="pn_m">pn</p>
+
+<p class="pn_m" style="text-align: center; color: #cecece;">Paragraph size mods are s, m, and l.</p>
+<p class="pn_m" style="text-align: center; color: #cecece;">Paragraph style mods are u, o, and st. Underline=u, overline=o, and strike-through=st</p>
+<p class="pn_m" style="text-align: center; color: #cecece;">When using multiple mods the order goes "class_size_style".</p>
+<p class="pn_m" style="text-align: center; color: #cecece;">You can mix and match mods, just keep the proper order.</p>
+</div></center>
+
+<p style="padding: 5mm;"></p>
+<center><div style = "width: 70%; padding: 3mm; color: #cecece; background-color: rgb(15, 15, 15, 0.7);  border-style: none; border-radius: 5px;">
+  <p class="pn_l" style="text-align: center; color: #cecece;">Buttons</p>
+  <p class="pn_m" style="text-align: center; color: #cecece;" class="pc_m_u">There are six primary button classes, X, Y, Z, AA, BB, and CC.</p>
+  <p  style="text-align: center;"><button class="buttonX">buttonX</button><button class="buttonY">buttonY</button><button class="buttonZ">buttonZ</button></p>
     <p style="text-align: center;"><button class="buttonAA">buttonAA</button></p>
       <p style="text-align: center;"><button class="buttonBB">buttonBB</button><button class="buttonCC">buttonCC</button></p>
-  <p style="text-align: center; color: #cecece;">X, Y, and Z buttons can use "mods". Mods are seperated with "_".</p>
-  <p style="text-align: center; color: #cecece;">Button mods are teal, blue, orange, yellow, red, pink, and green.</p>
+  <p class="pn_m" style="text-align: center; color: #cecece;">X, Y, and Z buttons can use "mods". Mods are seperated with "_".</p>
+  <p class="pn_m" style="text-align: center; color: #cecece;">Button mods are teal, blue, orange, yellow, red, pink, and green.</p>
 <div style="padding:5mm;"></div>
-<p style="text-align: center; color: #cecece;">There are two specialty button classes: Q1 & Q2.</p>
+<p class="pn_m" style="text-align: center; color: #cecece;">There are two specialty button classes: Q1 & Q2.</p>
 <p style="text-align: center;color: #cecece;"><a><button class="buttonQ1">buttonQ1</button></a><a><button class="buttonQ1_green">green</button></a></p>
 <p style="text-align: center;color: #cecece;"><a><button class="buttonQ1_red">red</button></a><a><button class="buttonQ1_yellow">yellow</button></a></p>
 <p style="text-align: center;color: #cecece;"><a><button class="buttonQ1_orange">orange</button></a><a><button class="buttonQ1_teal">teal</button></a></p>
@@ -48,16 +66,10 @@ gtag('config', 'UA-140492711-1');
 <p style="text-align: center;color: #cecece;"><a><button class="buttonQ2_city">buttonQ2_city</button></a></p>
 <p style="text-align: center;color: #cecece;"><a><button class="buttonQ2_code">buttonQ2_code</button></a></p>
 
-</center>
-
-<div style="padding:5mm;"></div>
-  <p style="text-align: center; color: #cecece;" class="pc_m_u">There are currently five paragraph classes pc, pf, po, ph, and pn.</p>
-  <p style="text-align: center; color: #cecece;" class="pc_m">pc</p><p style="text-align: center; color: #cecece;" class="pf_m">pf</p><p style="text-align: center; color: #cecece;" class="po_m">po</p><p style="text-align: center; color: #cecece;" class="ph_m">ph</p><p style="text-align: center; color: #cecece;" class="pn_m">pn</p>
-  <p style="text-align: center; color: #cecece;">Paragraph size mods are s, m, and l.</p>
-  <p style="text-align: center; color: #cecece;">Paragraph style mods are u, o, and st. Underline=u, overline=o, and strike-through=st</p>
-  <p style="text-align: center; color: #cecece;">When using multiple mods the order goes class_size_style.</p>
-  <p style="text-align: center; color: #cecece;">You can mix and match mods, just keep the proper order.</p>
-<div style="padding:5mm;"></div>
+</center></div></center>
+<p style="padding: 5mm;"></p>
+<center><div style = "width: 70%; padding: 3mm; color: #cecece; background-color: rgb(15, 15, 15, 0.7);  border-style: none; border-radius: 5px;">
+  <p class="pn_l" style="text-align: center; color: #cecece;">Overflows</p>
   <p style="text-align: center; color: #cecece;" class="pc_m_u">There are four overflow ids</p>
   <div style="margin: 3mm;">
   <p style="text-align: center; color: #cecece;" class="pc_s">ov_scroll</p>
@@ -68,8 +80,11 @@ gtag('config', 'UA-140492711-1');
   <p style="text-align: center; color: #cecece; border: solid;" class="pc" id="ov_hidden">This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.</p>
   <p style="text-align: center; color: #cecece;" class="pc_s">ov_visible</p>
   <p style="text-align: center; color: #cecece; border: solid;" class="pc" id="ov_visible">This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.This is a pragraph for overflow demo.</p>
-<div style="padding:5mm;"></div>
-  <p style="text-align: center; color: #cecece;" class="pc_m_u">There are six image classes</p>
+</div></center>
+<p style="padding: 5mm;"></p>
+<center><div style = "width: 70%; padding: 3mm; color: #cecece; background-color: rgb(15, 15, 15, 0.7);  border-style: none; border-radius: 5px;">
+  <p class="pn_l" style="text-align: center; color: #cecece;">Image Styles</p>
+  <p  style="text-align: center; color: #cecece;" class="pc_m_u">There are six image classes</p>
   <p style="text-align: center; color: #cecece;" class="pc_s">img_s, img_m, img_l, img_s_r, img_m_r, and img_l_r</p>
 <div style="padding:5mm;"></div>
 <p style="text-align: center; color: #cecece;" class="pc_s">img_s</p>
@@ -78,23 +93,41 @@ gtag('config', 'UA-140492711-1');
 <p style="text-align: center; color: #cecece;" class="pc_s">img_s_r</p>
 <p style="text-align: center;"><img src="./beach.JPG" width="30%" height="75%" class="img_s_r"></p>
 
-<p style="text-align: center; color: #cecece;" class="pc_m_u">There are two badge types</p>
-<p style="text-align: center;color: #cecece;">Blog    <span class="badge_box">badge_box</span></p>
-<p style="text-align: center;color: #cecece;">Blog    <span class="badge_round">badge_round</span></p>
-<p style="text-align: center; color: #cecece;">Both support teal, blue, orange, yellow, red, pink, and green.</p>
-</div>
-<div style="padding:5mm;"></div>
-<h3 style="text-align: center; color: #cecece;">Download JazzBlocks 2.2!</h3>
-<a href="./latest/libraries.zip" download>
-  <p style="text-align: center;"><button class="buttonY_teal">Download</button></p>
-</a>
+</div></center>
+<p style="padding: 5mm;"></p>
+<center><div style = "width: 70%; padding: 3mm; color: #cecece; background-color: rgb(15, 15, 15, 0.7);  border-style: none; border-radius: 5px;">
+<p class="pn_l" style="text-align: center; color: #cecece;">Badge Styles</p>
+  <p style="text-align: center; color: #cecece;" class="pc_m_u">There are two badge types</p>
+  <p style="text-align: center;color: #cecece;">Blog    <span class="badge_box">badge_box</span></p>
+  <p style="text-align: center;color: #cecece;">Blog    <span class="badge_round">badge_round</span></p>
+  <p style="text-align: center; color: #cecece;">Both support teal, blue, orange, yellow, red, pink, and green.</p>
+
+</div></center>
+<p style="padding: 5mm;"></p>
+
+
+<center><div style = "width: 70%; padding: 3mm; color: #cecece; background-color: rgb(15, 15, 15, 0.7);  border-style: none; border-radius: 5px;">
+  <p class="pn_l" style="text-align: center; color: #cecece;">Download JazzBlocks 2.2!</p>
+  <a href="./latest/libraries.zip" download>
+    <p style="text-align: center;"><button class="buttonQ1">Download</button></p>
+  </a>
+</div></center>
+
+
+
+
+
 
 </body>
-<div style="padding:5mm;"></div>
-<footer>
-  <center>
-<style>.bmc-button img{width: 35px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{padding: 7px 10px 7px 10px !important;line-height: 35px !important;height:51px !important;min-width:217px !important;text-decoration: none !important;display:inline-flex !important;color:#FFFFFF !important;background-color:#FF813F !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 10px 7px 10px !important;font-size: 22px !important;letter-spacing: 0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#FFFFFF !important;}</style><link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/jacobborg"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:15px;font-size:28px !important;">Buy me a coffee</span></a></center>
-  <p style="text-align: center"><a href="https://jacobborgprogramming.github.io/index.html" target="_blank"><img src="https://jacobborgprogramming.github.io/icons/logo.png" alt="JBP logo/link" width="100mm" height="100mm"></a></p>
 
+<footer>
+  <p style="padding: 5mm;"></p>
+  <center><div style = "width: 70%; padding: 3mm; color: #cecece; background-color: rgb(15, 15, 15, 0.7);  border-style: none; border-radius: 5px;">
+  <a href="./docs.html"><img id="fx_fade_04" src="./libraries/img/complete.png" alt="Complete library Docs" width="100mm" style="border-radius: 20px; margin: 10px"></a><a href="./buttons.html"><img id="fx_fade_04" src="./libraries/img/buttons.png" alt="Button library Docs" width="100mm" style="border-radius: 20px; margin: 10px"></a><a href="./source.html"><img id="fx_fade_04" src="./libraries/img/source.png" alt="Libray Source code" width="100mm" style="border-radius: 20px; margin: 10px"></a>
+  <p class="pn_s">Complete Library Docs | Button Library Docs | Library source code</p>
+  <center><style>.bmc-button img{height: 34px !important;width: 35px !important;margin-bottom: 1px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{padding: 7px 10px 7px 10px !important;line-height: 35px !important;height:51px !important;min-width:217px !important;text-decoration: none !important;display:inline-flex !important;color:#ffffff !important;background-color:#5F7FFF !important;border-radius: 5px !important;border: 1px solid transparent !important;padding: 7px 10px 7px 10px !important;font-size: 22px !important;letter-spacing: 0.6px !important;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#ffffff !important;}</style><link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/jacobborg"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:15px;font-size:28px !important;">Buy me a coffee</span></a></center>
+  </div></center>
+
+<p style="padding: 5mm;"></p>
 </footer>
 </html>

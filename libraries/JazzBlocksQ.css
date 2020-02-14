@@ -416,3 +416,14 @@ html{
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.3s;
 }
+#fx_fade_04{
+  opacity: 100%;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
+#fx_fade_04:hover{
+  cursor: pointer;
+  opacity: 80%;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.3s;
+}
